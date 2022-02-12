@@ -95,6 +95,7 @@ article .main-content .author-tab .share-icon {
   margin: auto;
   position: relative;
   top: -125px;
+  display: none;
 }
 
 .share-tab h2 {
@@ -106,6 +107,12 @@ article .main-content .author-tab .share-icon {
   display: -ms-flexbox;
   display: flex;
   gap: 1.5em;
+}
+
+.show-share-tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 @media (min-width: 675px) {

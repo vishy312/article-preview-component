@@ -76,6 +76,7 @@ article {
   margin: auto;
   position: relative;
   top: -125px;
+  display: none;
   h2 {
     letter-spacing: 0.5em;
   }
@@ -83,6 +84,9 @@ article {
     display: flex;
     gap: 1.5em;
   }
+}
+.show-share-tab {
+    display: flex;
 }
 
 // media query //
